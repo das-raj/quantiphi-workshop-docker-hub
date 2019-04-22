@@ -12,9 +12,7 @@ services:
       - '3306'
   djangoweb:
     image: rajchandvaniya/quantiphi_workshop:v1
-    command: python3 manage.py runserver 0.0.0.0:8000
-    volumes:
-      - .:/code
+    command: python3 /code/manage.py runserver 0.0.0.0:8000
     ports:
       - '8000:8000'
     depends_on:
