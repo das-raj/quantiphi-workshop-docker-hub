@@ -6,8 +6,8 @@ services:
       - '3306:3306'
     environment:
       MYSQL_DATABASE: 'stickynotes'
-      MYSQL_PASSWORD: 'root'
-      MYSQL_ROOT_PASSWORD: 'root'
+      MYSQL_PASSWORD: 'palakraj22'
+      MYSQL_ROOT_PASSWORD: 'palakraj22'
     expose:
       - '3306'
   djangoweb:
