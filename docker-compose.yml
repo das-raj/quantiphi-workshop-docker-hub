@@ -11,7 +11,7 @@ services:
     expose:
       - '3306'
   djangoweb:
-    build: rajchandvaniya/quantiphi_worshop:v1
+    build: rajchandvaniya/quantiphi_workshop:v1
     command: python3 manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
